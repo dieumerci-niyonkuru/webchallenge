@@ -1,0 +1,370 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img {
+  width: 200px;
+}
+
+section{
+  margin-top: 2rem;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.button button {
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+  background-color: #1668e3;
+  color: white;
+}
+
+.section{
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+}
+
+nav .logo img {
+  width: 200px;
+}
+
+nav li {
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 5px;
+}
+
+nav a {
+  color: #191e3b;
+}
+
+a {
+  text-decoration: none;
+  color:blue;
+  font-weight: bold;
+}
+a:hover{color: blue;}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li img {
+  width: 20px;
+  color: #191e3b;
+}
+
+main .main-header {
+ background-image: url(images/homepicture.jpeg);
+  background-position: center;
+  height: 85vh;
+  align-content: center;
+}
+
+.main-header p {
+  color: white;
+  font-size: 40px;
+  margin-left: 5%;
+  padding: 20px;
+}
+
+form {
+  width: 80%;
+  display: flex;
+  margin-left: 5%;
+  background-color: white;
+  padding: 20px;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+form .input {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background-color: transparent;
+  border: 1px solid #4e526ba3;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #191e3b;
+  font-size: 15px;
+}
+
+.input input::placeholder {
+  color: #191e3b;
+}
+
+.input.submit {
+  background-color: #1668e3;
+  width: 25%;
+  border: none;
+  border-radius: 20px;
+}
+
+.input.submit input {
+  background-color: transparent;
+  color: white;
+}
+
+form img {
+  width: 20px;
+}
+
+.section.message {
+  color: white;
+  padding: 10px;
+  justify-items: center;
+}
+
+.main-message {
+  display: flex;
+  align-items: center;
+  background-color: #191e3b;
+  width: 90%;
+  padding: 10px;
+  border-radius: 15px;
+  justify-content: space-between;
+
+}
+
+.section.message img {
+  width: 30px;
+  background-color: #aed1f3;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.section.message .content {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.section.message p {
+  font-size: 20px;
+}
+
+.section-header {
+  color: #191e3b;
+}
+
+.cards {
+  display: flex;
+  overflow: auto;
+  gap: 5px;
+  padding: 10px;
+}
+
+.find .cards .img{
+  background-color: #1668e3;
+  width: 100%;
+}
+.find .cards .img img{
+  width: 160%;
+  height: 40vh;
+  
+}
+
+.find .cards .card{
+  height: 40vh;
+  background-color: #000000;
+  overflow: hidden;
+  width: 25%;
+  border-radius: 20px;
+  position: relative;
+}
+
+.find .card .label {
+  color: white;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-weight: bold;
+}
+
+.browser .card{
+  width: 25%;
+}
+
+.browser .img{
+  height: 40vh;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.browser .cards{
+  gap: 20px;
+}
+
+.browser .cards .img img{
+  width: 150%;
+  height: 40vh;
+}
+
+.browser button{
+  background-color: #257c54;
+  color: white;
+  border: none;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+
+.browser .card-footer{
+  margin-top: 10px;
+  color: #191e3b;
+}
+
+.browser .cards p{
+  font-weight: bold;
+}
+
+.browser span{
+  font-weight: 100;
+  font-size: 13px;
+}
+
+.browser .type{
+  display: flex;
+  gap: 10px;
+}
+
+.browser .big-cards{
+  display: flex;
+  gap: 20px;
+}
+
+.big-card  .big-img{
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.big-card p{
+  color: #191e3b;
+}
+
+.big{
+  font-weight: bold;
+}
+
+.big-card img{
+  width: 100%;
+  height: 50vh;
+}
+
+.big-card{
+  width: 50%;
+}
+
+.private{
+  display: flex;
+  color: #191e3b;
+  border: 1px solid #191e3b4c;
+  border-radius: 10px;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.private h1{
+  font-size: 30px;
+}
+
+.simple .simple-cards{
+  display: flex;
+  color: #191e3b;
+}
+
+.simple-cards .simple-card > div{
+  padding-top: 10px;
+}
+
+.simple .title{
+  font-weight: bold;
+}
+
+.rent{
+  background-image: url("../images/www.fewo-direkt.de-1750235358358/732141-0_2-VRBO_HOSTS_LA_SAUNA_NEBELING_0101.jpg_1.jpeg");
+  background-position:center;
+  background-size: cover;
+  height: 80vh;
+  align-content: center;
+}
+
+.rent-content{
+  background-color: white;
+  width: 35%;
+  padding: 20px;
+  margin-left: 5%;
+  color: #191e3b;
+  border-radius: 10px;
+}
+
+.rent-content h1{
+  font-size: 40px;
+  
+  font-weight: 500;
+}
+
+.rent-content > div{
+  padding-top: 10px;
+}
+
+.rent-content button{
+  padding: 10px;
+  font-size: 17px;
+}
+
+.what-is h1{
+  color: #191e3b;
+}
+
+.what-is .content-one h1{
+  font-size: 35px;
+  padding: 20px 0px;
+  color: #191e3b;
+}
+
+.what-is .content-one p{
+  color: #191e3b;
+  font-size: 13px;
+}
+
+.what-is .content-two ul li{
+  display: flex;
+  color: #191e3b;
+  justify-content: space-between;
+  padding: 10px;
+ text-decoration-color: #aed1f3;
+ 
+}
